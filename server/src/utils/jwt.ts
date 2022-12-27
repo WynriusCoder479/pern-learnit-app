@@ -31,7 +31,8 @@ class JWT {
 			{
 				httpOnly: true,
 				secure: true,
-				sameSite: 'lax'
+				sameSite: 'lax',
+				path: '/api/auth/refresh_token'
 			}
 		)
 	}
